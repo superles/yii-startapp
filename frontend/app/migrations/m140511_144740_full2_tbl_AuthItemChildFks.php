@@ -1,6 +1,6 @@
 <?php
 
-class m140512_195719_full2_tbl_AuthItemChildFks extends CDbMigration
+class m140511_144740_full2_tbl_AuthItemChildFks extends CDbMigration
 {
 	public function up()
 	{

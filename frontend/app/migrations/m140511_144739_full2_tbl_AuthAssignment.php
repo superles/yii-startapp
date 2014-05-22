@@ -1,6 +1,6 @@
 <?php
 
-class m140512_195728_full2_tbl_AuthAssignment extends CDbMigration
+class m140511_144739_full2_tbl_AuthAssignment extends CDbMigration
 {
 	public function up()
 	{

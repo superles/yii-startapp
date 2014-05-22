@@ -1,6 +1,6 @@
 <?php
 
-class m140512_195717_full2_tbl_AuthItemChild extends CDbMigration
+class m140511_144739_full2_tbl_AuthItemChild extends CDbMigration
 {
 	public function up()
 	{
@@ -14,7 +14,7 @@ class m140512_195717_full2_tbl_AuthItemChild extends CDbMigration
 
 	public function down()
 	{
-		echo "m140512_195717_full2_tbl_AuthItemChild does not support migration down.\n";
+		echo "m140511_144739_full2_tbl_AuthItemChild does not support migration down.\n";
 		return false;
 	}
 

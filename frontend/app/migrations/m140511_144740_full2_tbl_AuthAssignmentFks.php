@@ -1,6 +1,6 @@
 <?php
 
-class m140512_195730_full2_tbl_AuthAssignmentFks extends CDbMigration
+class m140511_144740_full2_tbl_AuthAssignmentFks extends CDbMigration
 {
 	public function up()
 	{
@@ -10,7 +10,7 @@ class m140512_195730_full2_tbl_AuthAssignmentFks extends CDbMigration
 
 	public function down()
 	{
-		echo "m140512_195730_full2_tbl_AuthAssignmentFks does not support migration down.\n";
+		echo "m140511_144739_full2_tbl_AuthAssignmentFks does not support migration down.\n";
 		return false;
 	}
 
