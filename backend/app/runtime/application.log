@@ -1,0 +1,106 @@
+2014/05/11 15:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php:289
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('favicon.ico')
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/11 15:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php:289
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('favicon.ico')
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/11 15:10:32 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/05/11 15:10:32 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/05/11 15:14:43 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/05/11 15:14:43 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/05/11 15:14:51 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2014/05/11 15:14:51 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.TbApi" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /var/www/startapp/vendor/yiisoft/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/startapp/common/components/ELangPick.php(4): CModule->getComponent('bootstrap')
+#3 /var/www/startapp/vendor/yiisoft/yii/framework/YiiBase.php(432): include('/var/www/starta...')
+#4 [internal function]: YiiBase::autoload('ELangPick')
+#5 /var/www/startapp/common/components/Controller.php(13): spl_autoload_call('ELangPick')
+#6 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(284): Controller->init()
+#7 /var/www/startapp/vendor/yiisoft/yii/framework/web/CWebApplication.php(144): CWebApplication->runController('')
+#8 /var/www/startapp/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/startapp/frontend/web/index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---

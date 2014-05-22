@@ -1,0 +1,15 @@
+.site-login {
+  margin: 80px 0;
+  text-align: center;
+}
+.site-login h1 {
+  margin-bottom: 25px;
+}
+.site-login .login-form {
+  margin: auto;
+  width: 220px;
+}
+.site-down {
+  margin: 80px 0;
+  text-align: center;
+}

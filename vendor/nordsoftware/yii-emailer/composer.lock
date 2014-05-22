@@ -1,0 +1,126 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "ad589c72de254cb90b684a1c567cfbd6",
+    "packages": [
+        {
+            "name": "crisu83/yii-formatter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crisu83/yii-formatter.git",
+                "reference": "30b743dbb3edddc4d6457a9b6046510f4a515f95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crisu83/yii-formatter/zipball/30b743dbb3edddc4d6457a9b6046510f4a515f95",
+                "reference": "30b743dbb3edddc4d6457a9b6046510f4a515f95",
+                "shasum": ""
+            },
+            "type": "yii-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@gmail.com",
+                    "homepage": "http://www.cniska.net/"
+                }
+            ],
+            "description": "A collection of formatters for the Yii PHP framework.",
+            "keywords": [
+                "formatter"
+            ],
+            "time": "2013-05-22 13:05:40"
+        },
+        {
+            "name": "nordsoftware/yii-utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nordsoftware/yii-utils.git",
+                "reference": "c9eb69f53d2f3ba0acab169ab5bb9e7a2881cc13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nordsoftware/yii-utils/zipball/c9eb69f53d2f3ba0acab169ab5bb9e7a2881cc13",
+                "reference": "c9eb69f53d2f3ba0acab169ab5bb9e7a2881cc13",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@nordsoftware.com"
+                }
+            ],
+            "description": "Utility classes for the Yii PHP framework.",
+            "time": "2013-06-18 14:27:35"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "a73b60218b75352d8474b52d0a0aa94c0286fa67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/a73b60218b75352d8474b52d0a0aa94c0286fa67",
+                "reference": "a73b60218b75352d8474b52d0a0aa94c0286fa67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Chris Corbyn"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "mail",
+                "mailer"
+            ],
+            "time": "2013-01-08 15:50:34"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nordsoftware/yii-utils": 20,
+        "crisu83/yii-formatter": 20
+    },
+    "platform": [],
+    "platform-dev": []
+}

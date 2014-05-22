@@ -1,0 +1,185 @@
+.cms {
+  /***************************************************************************************/
+
+  /* first row of buttons */
+
+  /* next rows of buttons */
+
+  /* next rows of buttons */
+
+  /* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+}
+.cms .markItUp * {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+.cms .markItUp a:link,
+.cms .markItUp a:visited {
+  color: #000;
+  text-decoration: none;
+}
+.cms .markItUp {
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
+.cms .markItUpContainer {
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+.cms .markItUpEditor {
+  font: 12px 'Courier New', Courier, monospace;
+  padding: 5px;
+  width: 100%;
+  height: 320px;
+  clear: both;
+  line-height: 18px;
+  overflow: auto;
+}
+.cms .markItUpPreviewFrame {
+  overflow: auto;
+  background-color: #FFF;
+  width: 99.9%;
+  height: 300px;
+  margin: 5px 0;
+}
+.cms .markItUpFooter {
+  width: 100%;
+}
+.cms .markItUpResizeHandle {
+  overflow: hidden;
+  width: 22px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/handle.png);
+  cursor: n-resize;
+}
+.cms .markItUpHeader {
+  width: 100%;
+}
+.cms .markItUpHeader ul li {
+  list-style: none;
+  float: left;
+  position: relative;
+}
+.cms .markItUpHeader ul li:hover > ul {
+  display: block;
+}
+.cms .markItUpHeader ul .markItUpDropMenu {
+  background: transparent url(/images/menu.png) no-repeat 115% 50%;
+  margin-right: 5px;
+}
+.cms .markItUpHeader ul .markItUpDropMenu li {
+  margin-right: 0px;
+}
+.cms .markItUpHeader ul ul {
+  display: none;
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  background: #FFF;
+  border: 1px solid #000;
+}
+.cms .markItUpHeader ul ul li {
+  float: none;
+  border-bottom: 1px solid #000;
+}
+.cms .markItUpHeader ul ul .markItUpDropMenu {
+  background: #ffffff url(/images/submenu.png) no-repeat 100% 50%;
+}
+.cms .markItUpHeader ul .markItUpSeparator {
+  margin: 0 10px;
+  width: 1px;
+  height: 16px;
+  overflow: hidden;
+  background-color: #CCC;
+}
+.cms .markItUpHeader ul ul .markItUpSeparator {
+  width: auto;
+  height: 1px;
+  margin: 0px;
+}
+.cms .markItUpHeader ul ul ul {
+  position: absolute;
+  top: -1px;
+  left: 150px;
+}
+.cms .markItUpHeader ul ul ul li {
+  float: none;
+}
+.cms .markItUpHeader ul a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-indent: -10000px;
+  background-repeat: no-repeat;
+  padding: 3px;
+  margin: 0px;
+}
+.cms .markItUpHeader ul ul a {
+  display: block;
+  padding-left: 0px;
+  text-indent: 0;
+  width: 120px;
+  padding: 5px 5px 5px 25px;
+  background-position: 2px 50%;
+}
+.cms .markItUpHeader ul ul a:hover {
+  color: #FFF;
+  background-color: #000;
+}
+.cms .markItUp .h1 a {
+  background-image: url(/images/h1.png);
+}
+.cms .markItUp .h2 a {
+  background-image: url(/images/h2.png);
+}
+.cms .markItUp .h3 a {
+  background-image: url(/images/h3.png);
+}
+.cms .markItUp .h4 a {
+  background-image: url(/images/h4.png);
+}
+.cms .markItUp .h5 a {
+  background-image: url(/images/h5.png);
+}
+.cms .markItUp .h6 a {
+  background-image: url(/images/h6.png);
+}
+.cms .markItUp .paragraph a {
+  background-image: url(/images/paragraph.png);
+}
+.cms .markItUp .bold a {
+  background-image: url(/images/bold.png);
+}
+.cms .markItUp .italic a {
+  background-image: url(/images/italic.png);
+}
+.cms .markItUp .underline a {
+  background-image: url(/images/underline.png);
+}
+.cms .markItUp .list-bullet a {
+  background-image: url(/images/list-bullet.png);
+}
+.cms .markItUp .list-numeric a {
+  background-image: url(/images/list-numeric.png);
+}
+.cms .markItUp .list-item a {
+  background-image: url(/images/list-item.png);
+}
+.cms .markItUp .picture a {
+  background-image: url(/images/picture.png);
+}
+.cms .markItUp .link a {
+  background-image: url(/images/link.png);
+}
+.cms .markItUp .clean a {
+  background-image: url(/images/clean.png);
+}
+.cms .markItUp .preview a {
+  background-image: url(/images/preview.png);
+}
